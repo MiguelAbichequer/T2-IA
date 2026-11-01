@@ -11,22 +11,17 @@ def minimax_move(state, max_depth: int, eval_func: Callable) -> Tuple[int, int]:
                     and should return a float value representing the utility of the state for the player.
     :return: (int, int) tuple with x, y coordinates of the move (remember: 0 is the first row/column)
     """
-    # Todas as avaliacoes sao feitas do ponto de vista de quem esta decidindo (raiz).
     root_player = state.player
 
     def search(s, depth: int, alpha: float, beta: float) -> float:
-        # Folha: estado terminal ou limite de profundidade atingido
+        # folha: estado terminal ou limite de profundidade atingido
         if s.is_terminal() or (max_depth != -1 and depth >= max_depth):
             return eval_func(s, root_player)
-
-        # Quem joga em s define se o no e' MAX ou MIN. Assim, quando o oponente
-        # passa a vez (Othello) e o mesmo jogador joga duas vezes seguidas,
-        # o papel do no continua correto.
         if s.player == root_player:
             value = float('-inf')
             for move in s.legal_moves():
                 value = max(value, search(s.next_state(move), depth + 1, alpha, beta))
-                if value >= beta:        # poda beta
+                if value >= beta:# poda beta
                     return value
                 alpha = max(alpha, value)
             return value
@@ -34,12 +29,11 @@ def minimax_move(state, max_depth: int, eval_func: Callable) -> Tuple[int, int]:
             value = float('inf')
             for move in s.legal_moves():
                 value = min(value, search(s.next_state(move), depth + 1, alpha, beta))
-                if value <= alpha:       # poda alfa
+                if value <= alpha:# poda alfa
                     return value
                 beta = min(beta, value)
             return value
 
-    # Raiz: igual a um no MAX, mas guardando a melhor jogada
     best_move = None
     best_value = float('-inf')
     alpha, beta = float('-inf'), float('inf')
