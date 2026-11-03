@@ -11,6 +11,10 @@ from .minimax import minimax_move
 # do seu agente.
 
 
+# profundidade calibrada para responder em < 5s
+MAX_DEPTH = 5
+
+
 def make_move(state) -> Tuple[int, int]:
     """
     Returns a move for the given game state
@@ -18,12 +22,7 @@ def make_move(state) -> Tuple[int, int]:
     :return: (int, int) tuple with x, y coordinates of the move (remember: 0 is the first row/column)
     """
 
-    # o codigo abaixo apenas retorna um movimento aleatorio valido para
-    # a primeira jogada 
-    # Remova-o e coloque uma chamada para o minimax_move (que vc implementara' no modulo minimax).
-    # A chamada a minimax_move deve receber sua funcao evaluate como parametro.
-
-    return random.choice([(2, 3), (4, 5), (5, 4), (3, 2)])
+    return minimax_move(state, MAX_DEPTH, evaluate_count)
 
 
 def evaluate_count(state, player:str) -> float:
@@ -34,4 +33,4 @@ def evaluate_count(state, player:str) -> float:
     :param state: state to evaluate (instance of GameState)
     :param player: player to evaluate the state for (B or W)
     """
-    return 0   # substitua pelo seu codigo
+    return state.board.num_pieces(player) - state.board.num_pieces(Board.opponent(player))
