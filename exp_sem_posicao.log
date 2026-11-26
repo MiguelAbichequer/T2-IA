@@ -1,0 +1,40 @@
+abertura 0 A=B: 28-36 -> B  (22s)
+abertura 0 A=W: 27-37 -> A  (45s)
+abertura 1 A=B: 35-29 -> A  (68s)
+abertura 1 A=W: 36-28 -> B  (90s)
+abertura 2 A=B: 51-13 -> A  (112s)
+abertura 2 A=W: 23-41 -> A  (134s)
+abertura 3 A=B: 26-38 -> B  (157s)
+abertura 3 A=W: 29-35 -> A  (179s)
+abertura 4 A=B: 20-44 -> B  (202s)
+abertura 4 A=W: 21-43 -> A  (224s)
+abertura 5 A=B: 15-49 -> B  (245s)
+abertura 5 A=W: 11-53 -> A  (267s)
+abertura 6 A=B: 38-25 -> A  (290s)
+abertura 6 A=W: 49-15 -> B  (312s)
+abertura 7 A=B: 31-33 -> B  (334s)
+abertura 7 A=W: 25-38 -> A  (357s)
+abertura 8 A=B: 33-31 -> A  (379s)
+abertura 8 A=W: 28-36 -> A  (402s)
+abertura 9 A=B: 19-45 -> B  (424s)
+abertura 9 A=W: 10-54 -> A  (446s)
+abertura 10 A=B: 39-25 -> A  (469s)
+abertura 10 A=W: 9-55 -> A  (491s)
+abertura 11 A=B: 24-40 -> B  (513s)
+abertura 11 A=W: 29-35 -> A  (535s)
+{
+ "A": "advsearch.delfos.variant_sem_posicao",
+ "B": "advsearch.delfos.tournament_agent_v1",
+ "jogos": 24,
+ "vitorias_A": 15,
+ "vitorias_B": 9,
+ "empates": 0,
+ "dif_discos_medio_A": 5.166666666666667,
+ "tempo_medio_A_s": 0.4098370831817296,
+ "tempo_max_A_s": 0.5262935161590576,
+ "tempo_medio_B_s": 0.4164379286913224,
+ "tempo_max_B_s": 0.5012249946594238,
+ "orcamento_A": 0.5,
+ "orcamento_B": 0.5,
+ "K": 6
+}

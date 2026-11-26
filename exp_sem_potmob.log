@@ -1,0 +1,37 @@
+abertura 0 A=B: 24-40 -> B  (22s)
+abertura 0 A=W: 43-21 -> B  (45s)
+abertura 1 A=B: 34-30 -> A  (20743s)
+Traceback (most recent call last):
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\testes_extra\match.py", line 69, in <module>
+    b, w, err, times = play(agents, budgets, seq, colA)
+                       ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\testes_extra\match.py", line 40, in play
+    mv = mod.make_move(st.copy() if hasattr(st, 'copy') else st)
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\variant_sem_potmob.py", line 11, in make_move
+    return _T.make_move(state)
+           ~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\tournament_agent.py", line 57, in make_move
+    best, scores = _root(p, o, moves, depth, deadline, tt)
+                   ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\tournament_agent.py", line 87, in _root
+    v = -_negamax(no_, np_, depth - 1, -beta, -alpha, deadline, tt)
+         ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\tournament_agent.py", line 131, in _negamax
+    v = -_negamax(no_, np_, depth - 1, -beta, -alpha, deadline, tt)
+         ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\tournament_agent.py", line 131, in _negamax
+    v = -_negamax(no_, np_, depth - 1, -beta, -alpha, deadline, tt)
+         ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\tournament_agent.py", line 131, in _negamax
+    v = -_negamax(no_, np_, depth - 1, -beta, -alpha, deadline, tt)
+         ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\tournament_agent.py", line 110, in _negamax
+    return evaluate(p, o, mp)
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\othello_eval.py", line 130, in evaluate
+    position = position_sum(p) - position_sum(o)
+                                 ~~~~~~~~~~~~^^^
+  File "C:\Users\Usuário\Desktop\Trabalho2IA\T2-IA\advsearch\delfos\othello_eval.py", line 55, in position_sum
+    def position_sum(bits):
+    
+KeyboardInterrupt

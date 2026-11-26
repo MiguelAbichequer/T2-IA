@@ -1,0 +1,236 @@
+{
+ "resumo": {
+  "A": "advsearch.delfos.variant_sem_estabilidade",
+  "B": "advsearch.delfos.tournament_agent_v1",
+  "jogos": 24,
+  "vitorias_A": 3,
+  "vitorias_B": 21,
+  "empates": 0,
+  "dif_discos_medio_A": -14.416666666666666,
+  "tempo_medio_A_s": 0.4115650604952021,
+  "tempo_max_A_s": 0.5010042190551758,
+  "tempo_medio_B_s": 0.41472901066264356,
+  "tempo_max_B_s": 0.500525951385498,
+  "orcamento_A": 0.5,
+  "orcamento_B": 0.5,
+  "K": 6
+ },
+ "jogos": [
+  {
+   "opening": 0,
+   "colorA": "B",
+   "black": 28,
+   "white": 36,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 0,
+   "colorA": "W",
+   "black": 40,
+   "white": 24,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 1,
+   "colorA": "B",
+   "black": 13,
+   "white": 51,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 1,
+   "colorA": "W",
+   "black": 44,
+   "white": 20,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 2,
+   "colorA": "B",
+   "black": 13,
+   "white": 51,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 2,
+   "colorA": "W",
+   "black": 21,
+   "white": 43,
+   "resultA": "A",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 3,
+   "colorA": "B",
+   "black": 30,
+   "white": 34,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 3,
+   "colorA": "W",
+   "black": 16,
+   "white": 48,
+   "resultA": "A",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 4,
+   "colorA": "B",
+   "black": 23,
+   "white": 41,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 4,
+   "colorA": "W",
+   "black": 39,
+   "white": 25,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 5,
+   "colorA": "B",
+   "black": 26,
+   "white": 38,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 5,
+   "colorA": "W",
+   "black": 49,
+   "white": 15,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 6,
+   "colorA": "B",
+   "black": 24,
+   "white": 40,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 6,
+   "colorA": "W",
+   "black": 45,
+   "white": 19,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 7,
+   "colorA": "B",
+   "black": 28,
+   "white": 36,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 7,
+   "colorA": "W",
+   "black": 39,
+   "white": 25,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 8,
+   "colorA": "B",
+   "black": 26,
+   "white": 38,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 8,
+   "colorA": "W",
+   "black": 47,
+   "white": 17,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 9,
+   "colorA": "B",
+   "black": 19,
+   "white": 45,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 9,
+   "colorA": "W",
+   "black": 50,
+   "white": 14,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 10,
+   "colorA": "B",
+   "black": 25,
+   "white": 39,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 10,
+   "colorA": "W",
+   "black": 24,
+   "white": 40,
+   "resultA": "A",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 11,
+   "colorA": "B",
+   "black": 30,
+   "white": 34,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  },
+  {
+   "opening": 11,
+   "colorA": "W",
+   "black": 44,
+   "white": 20,
+   "resultA": "B",
+   "errA": 0,
+   "errB": 0
+  }
+ ]
+}
